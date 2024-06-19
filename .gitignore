@@ -1,43 +1,51 @@
-# Node modules
+# Ignore all Node modules
 node_modules/
 
-# Logs
+# Ignore all Logs and the files in the logs directory
 logs/
 *.log
 
-# Environment variables
+# Ignore Environment variables
 .env
 
-# OS-specific files
+# Ignore OS-specific files
 .DS_Store
 Thumbs.db
 
-# IDE and editor files
+# Ignore IDE and editor files and the files in the .idea directory and the .vscode directory
 .idea/
 *.iml
 .vscode/
 
-# Build and dependency files
+# Ignore Build and dependency files and the files in the dist and build directories
 dist/
 build/
 
-# Temporary files
+# Ignore Temporary files
 *.tmp
 
-# Python cache files
+# Ignore Python cache files and the files in the __pycache__ directory
 __pycache__/
 *.py[cod]
 
-# Jupyter Notebook checkpoints
+# Ignore Jupyter Notebook checkpoints and the files in the .ipynb_checkpoints directory
 .ipynb_checkpoints/
 
-# Specific files and directories to exclude
+# Ignore the src/ai directory and the files in the src/ai directory
 src/ai/         
 
+# Ignore the config directory and the files in the config directory except for the sampleConfig.json file
 config/*
 !config/sampleConfig.json                      
 
-# Other Specific files and Dirs to exclude
+# Ignore the docs/private directory and the files in the docs/private directory
 docs/private
+
+# Ignore the .cursorignore and .continueignore files
 .cursorignore
+.continueignore
+
+# Ignore the .aider* and .aiderignore files
 .aider*
+.aiderignore
+
