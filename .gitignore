@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+
+# Build and dependency files
+dist/
+build/
+
+# Temporary files
+*.tmp
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Specific files and directories to exclude
+src/ai/                       # AI-related tasks
+config/                       # Configuration files
+
+# Other Specific files and Dirs to exclude
+docs/private
+.cursorignore

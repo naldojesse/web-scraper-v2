@@ -1,0 +1,185 @@
+{
+  "general": {
+    "coding_style": {
+      "language": "JavaScript",
+      "use_strict": true,
+      "indentation": "2 spaces",
+      "max_line_length": 80,
+      "comments": {
+        "style": "JSDoc",
+        "require_comments": true
+      }
+    },
+    "naming_conventions": {
+      "variables": "camelCase",
+      "functions": "camelCase",
+      "classes": "PascalCase",
+      "interfaces": "PascalCase",
+      "files": "kebab-case"
+    },
+    "error_handling": {
+      "prefer_try_catch": true,
+      "log_errors": true
+    },
+    "testing": {
+      "require_tests": true,
+      "test_coverage": "80%",
+      "test_types": ["unit", "integration"]
+    },
+    "documentation": {
+      "require_docs": true,
+      "doc_tool": "JSDoc",
+      "style_guide": "Google JavaScript Style Guide"
+    },
+    "security": {
+      "require_https": false,
+      "sanitize_inputs": true,
+      "validate_inputs": true,
+      "use_env_vars": true
+    },
+    "configuration_management": {
+      "config_files": ["config.json", "sampleConfig.json"],
+      "env_management": "dotenv",
+      "secrets_management": "none"
+    },
+    "code_review": {
+      "require_reviews": false,
+      "review_tool": "none",
+      "review_criteria": []
+    },
+    "version_control": {
+      "system": "Git",
+      "branching_strategy": "main",
+      "commit_message_format": "Conventional Commits"
+    },
+    "logging": {
+      "logging_tool": "debug",
+      "log_levels": ["debug", "info", "warn", "error"],
+      "log_retention_policy": "none"
+    },
+    "monitoring": {
+      "monitoring_tool": "PM2",
+      "metrics": ["CPU Usage", "Memory Usage", "Event Loop Metrics"]
+    },
+    "dependency_management": {
+      "package_manager": "npm",
+      "versioning_strategy": "Semantic Versioning"
+    },
+    "accessibility": {
+      "standards": ["WCAG 2.1"],
+      "testing_tools": ["axe-core", "Lighthouse"]
+    },
+    "internationalization": {
+      "i18n_tool": "none",
+      "supported_languages": [],
+      "default_language": "en"
+    },
+    "ci_cd": {
+      "ci_tool": "none",
+      "cd_tool": "none",
+      "pipeline_configuration": "none"
+    },
+    "code_formatting": {
+      "formatter": "Prettier",
+      "linting_tool": "ESLint",
+      "rules": ["no-unused-vars", "no-console"]
+    },
+    "architecture": {
+      "patterns": ["MVC", "Factory"],
+      "principles": ["SOLID", "KISS"]
+    }
+  },
+  "project_specific": {
+    "use_framework": "Express.js",
+    "styling": "CSS-in-JS",
+    "testing_framework": "Jest",
+    "build_tool": "none",
+    "deployment": {
+      "environment": "local",
+      "automation": "none",
+      "strategy": "manual"
+    },
+    "performance": {
+      "benchmarking_tool": "none",
+      "performance_goals": {
+        "response_time": "200ms",
+        "throughput": "1000 requests/second",
+        "error_rate": "0.1%"
+      }
+    }
+  },
+  "context": {
+    "codebase_overview": "A web scraping application designed to automate job listings gathering from various websites.",
+    "libraries": ["Puppeteer", "Selenium", "BeautifulSoup"],
+    "coding_practices": {
+      "modularity": true,
+      "DRY_principle": true,
+      "performance_optimization": true
+    }
+  },
+  "behavior": {
+    "verbosity": {
+      "level": 2,
+      "range": [0, 3]
+    },
+    "handle_incomplete_tasks": "Log and notify",
+    "ask_for_clarification": true,
+    "communication_tone": "Professional"
+  },
+  "rules": [
+    {
+      "id": "repetition_penalty",
+      "description": "Applies a penalty to repeated content to encourage diversity",
+      "penalty": 1.2
+    },
+    {
+      "id": "unique_code_penalty",
+      "description": "Applies a penalty to repeated code patterns to encourage diversity",
+      "penalty": 1.5
+    },
+    {
+      "id": "min_length",
+      "description": "Requires responses to be at least 100 words to promote detailed answers",
+      "minLength": 100
+    },
+    {
+      "id": "min_comments",
+      "description": "Requires generated code to include at least 1 comment per 10 lines",
+      "minCommentDensity": 0.1
+    },
+    {
+      "id": "readable_var_names",
+      "description": "Encourages using descriptive, readable variable names",
+      "minVarNameLength": 3,
+      "varNamePattern": "^[a-zA-Z]\\w*$"
+    },
+    {
+      "id": "query_length_verbosity",
+      "description": "Adjusts verbosity based on query length to provide concise answers to simple questions",
+      "queryLengthThreshold": 20,
+      "verbosityAdjustment": -0.5
+    },
+    {
+      "id": "content_score_threshold",
+      "description": "Rejects responses with a content quality score below 0.7",
+      "scoreThreshold": 0.7
+    },
+    {
+      "id": "code_examples",
+      "description": "Requires responses to reference specific lines of code from the current file",
+      "minCodeExamples": 2
+    },
+    {
+      "id": "security_scan",
+      "description": "Scans generated code for common security issues (e.g., SQL injection)",
+      "enabled": true
+    },
+    {
+      "id": "modern_lang_features",
+      "description": "Prioritizes using modern syntactic sugar and idioms",
+      "es6": true,
+      "optionalChaining": true,
+      "nullishCoalescing": true
+    }
+  ]
+}

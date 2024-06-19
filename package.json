@@ -1,0 +1,14 @@
+{
+  "name": "job-automator-v2",
+  "version": "1.0.0",
+  "description": "Web scraping application for job listings",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "debug": "^4.3.5",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.11.2"
+  }
+}
