@@ -32,8 +32,8 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Specific files and directories to exclude
-src/ai/                       # AI-related tasks
-config/                       # Configuration files
+src/ai/                      
+config/                       
 
 # Other Specific files and Dirs to exclude
 docs/private
