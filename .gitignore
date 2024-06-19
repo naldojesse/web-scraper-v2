@@ -40,3 +40,4 @@ config/*
 # Other Specific files and Dirs to exclude
 docs/private
 .cursorignore
+.aider*
